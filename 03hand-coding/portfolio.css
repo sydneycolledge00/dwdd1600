@@ -1,0 +1,141 @@
+body {
+   
+  font-family: "bely-display", "bely", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin:0;
+}
+/*Header stuff here*/
+header{
+    
+    background-color:#f2f2F2;
+    padding:1rem 2%;
+    
+}
+header h1{
+    font-size: 3rem;
+    font-family:"bely-display";
+    margin: 0;
+    color:#F2C849;
+    
+}
+header p{
+    font-family: "bely";
+    margin: 0;
+     color:#f2811d;
+    letter-spacing:7.5px
+    
+}
+/*nav stuff goes here*/
+nav{
+    background-color: #F24b88;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0 2%;
+    margin:0;
+    display: flex;
+}
+nav a{font-size: 1rem;
+    text-decoration: none;
+    color:#f2c849;
+    font-weight: 700;
+    display:block;
+    padding:.83rem 2rem; 
+    
+}
+nav li.active a{
+    background-color: #F2C849;
+        color:#f2b705;
+}
+nav a:hover{
+    color:#f2f2f2;
+}
+/*stuff for the main*/
+main{
+    background-color:#f2f2f2;
+    padding: 1rem 2%
+}
+main h1{
+    font-size:2rem;
+    font-family:"bely-display";
+    color:#f2811d;
+}
+main h2{
+    font-family: "bely-display";
+    color:#f24b88;
+    margin-bottom: .2rem;
+    font-size:1.3rem;
+}
+main p1{
+    font-family:"bely";
+    color:#0d0d0d;
+    margin: 0 0 .3rem 0;
+}
+main p2{
+    font-family:"bely";
+    color:#0d0d0d;
+    margin: 0 0 .3rem 0;
+}
+main p3{
+    font-family:"bely";
+    color:#0d0d0d;
+    margin: 0 0 .3rem 0;
+
+}
+main p4{
+    font-family:"bely";
+    color:#0d0d0d;
+    margin-top: 1rem;
+
+}
+main ol{
+    font-family: "bely";
+    padding:.5rem 3%;
+    background-color: #f2f2f2;
+ 
+    
+}
+main ul{
+    font-family: "bely";
+    list-style-type:square;
+}
+main li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size:.9rem;
+}
+main address{
+    font-family:"bely";
+    font-style: normal;
+    background-color: #f2f2f2;
+    padding: .5rem;
+    width: 10.5rem;
+    border:2px solid #f2811d;
+    border-radius: .5rem;
+    margin-top:1rem;}
+
+    
+main a{
+    color: #f2811d;
+    
+}
+main a:hover{
+    color: #f24b88;
+    
+}
+/*footer stuff here*/
+footer{
+    background-color:#f24b88;
+    text-align:center;
+    color:#F2C849;
+padding: .9rem;
+}
+footer a{
+    color:#F2C849;
+}
+footer a:hover{color:#f24b88;}
+#F24B88
+#F2C849
+#F2811D
