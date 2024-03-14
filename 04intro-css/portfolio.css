@@ -106,6 +106,17 @@ main li{
     margin-bottom: .5rem;
     font-size:.9rem;
 }
+main dd{
+    font-family: "bely";
+    padding:.5rem 3%;
+    background-color: #f2f2f2;
+}
+main dt{
+   font-family: "bely-display";
+    color:#f24b88;
+    margin-bottom: .2rem;
+    font-size:1.3rem; 
+}
 main address{
     font-family:"bely";
     font-style: normal;
