@@ -1,0 +1,268 @@
+/*prevent problems with different browsers*/
+
+
+body {
+   
+  font-family: "bely-display", "bely", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin:0;
+}
+/*Header stuff here*/
+header{
+    display:flex;
+    
+    background-image:linear-gradient(#f2f2F2, #d8d8d8);
+    padding:1rem 2%;
+    align-items: flex-end;
+}
+header div{
+    padding-left:2vw;
+}
+header h1{
+    font-size: 3rem;
+    font-family:"bely-display";
+    margin: 0;
+    color:#F2C849;
+    
+}
+header p{
+    font-family: "bely";
+    margin: 0;
+     color:#f2811d;
+    letter-spacing:7.5px
+    
+}
+/*nav stuff goes here*/
+@media only screen and (max-width:600px){
+}/*end of media query*/
+
+@media only screen and (min-width:601px){
+}/*end of media query*/
+nav{
+    background-color: #F24b88;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0 2%;
+    margin:0;
+    display: flex;
+}
+nav a{font-size: 1rem;
+    text-decoration: none;
+    color:#f2c849;
+    font-weight: 700;
+    display:block;
+    padding:.83rem 2rem; 
+    
+}
+nav li.active a{
+        color:#f2f2f2;
+
+}
+nav a:hover{
+    color:#f2811d;
+}
+/*stuff for the main*/
+main{
+    background-color:#f2f2f2;
+    padding: 1rem 2%
+}
+main h1{
+    font-size:2rem;
+    font-family:"bely-display";
+    color:#f2811d;
+}
+main h2{
+    font-family: "bely-display";
+    color:#f24b88;
+    margin-bottom: .2rem;
+    font-size:1.3rem;
+}
+main p{
+    font-family:"bely";
+    color:#0d0d0d;
+    margin: 0 0 .3rem 0;
+}
+
+main ol{
+    font-family: "bely";
+    padding:.5rem 3%;
+    background-color: #f2f2f2;
+ 
+    
+}
+main ul{
+    font-family: "bely";
+    list-style-type:square;
+}
+main li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size:.9rem;
+}
+main dd{
+    font-family: "bely";
+    padding:.5rem 3%;
+    background-color: #f2f2f2;
+    
+}
+main dt{
+   font-family: "bely-display";
+    color:#f24b88;
+    margin-bottom: .2rem;
+    font-size:1.3rem; 
+}
+
+main address{
+    font-family:"bely";
+    font-style: normal;
+    background-color: #f2f2f2;
+    padding: .5rem;
+    width: 10.5rem;
+    border:2px solid #f2811d;
+    border-radius: .5rem;
+    margin-top:1rem;}
+
+.sydneyhero{
+    width:100%;
+    margin:0;
+}
+.sydneyhero img{
+    width:100%;
+    height:auto;
+}
+table.my-pricing{
+    width:100%;
+    border-collapse:collapse;
+    
+}
+table.my-pricing th{
+    background-color: #f24b88;
+    color:white;
+    padding:.5rem 2vw;
+    text-align: left;  
+    font-family:"bely-display";
+}
+table.my-pricing td{
+    color:black;
+    padding:.4rem 2vw;
+    font-family:"bely";
+    }
+table.my-pricing tr:nth-child(even){
+    background-color:white;
+    
+}
+table.my-pricing tr:hover{
+    background-color: rgba(242,129,29,0.2);}
+   
+main a{
+    color: #f2811d;
+    
+}
+main a:hover{
+    color: #f24b88;
+    
+}
+figure.wrapped{
+    width:30%;
+    margin:0 0 0 2%;
+    float: right;
+}
+figure.wrapped img{
+    width:100%;
+    height: auto;
+}
+figure.wrapped figcaption{
+    color:#f24b88;
+    text-align: center;
+    font-size: .75rem;
+}
+div.gallery
+{
+    Display: flex;
+    flex-wrap:wrap;
+}
+div.gallery figure{
+    margin:.5rem 2% 0 0;
+    
+}
+div.gallery img{
+    display:block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+div.gallery img:hover{
+   box-shadow: 4px -4px 10px black;  
+}
+div.gallery figcaption{
+    background-color:#F2C849;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color:#f24b88;
+}
+.myform fieldset{
+    border: 1px solid #f24b88;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.myform legend{
+    color:#f24b88;
+    font-size: .8rem;
+}
+.myform label{
+    margin: .5rem;
+    font-family: bely;
+}
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea, .myform [type=email]{
+    display: block;
+}
+.myform select,.myform [type=email], .myform [type=text], .myform [type=tel], .myform textarea{
+    border:solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: bely;
+    font-weight: 200;
+    letter-spacing: .1rem
+}
+.myform textarea{
+    height: 6rem;
+    width: 32rem;
+    margin-top: .3rem;
+}
+.myform :required{
+    background-color: rgb(242, 75, 136, 0.1)
+}
+.myform [type=submit]{
+    background-color: #f2811d;
+    border: none;
+    padding:1rem 2rem;
+    border-radius:10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+    font-family: bely-display;
+    font-size: .75rem;
+}
+
+/*footer stuff here*/
+footer{
+    clear:both;
+    background-color:#f24b88;
+    text-align:center;
+    color:#F2C849;
+padding: .9rem;
+}
+footer a{
+    color:#F2C849;
+}
+footer a:hover{color:#f24b88;}
+
+header, nav, main, footer{
+    max-width:64rem;
+    margin:0 auto;    
+}
